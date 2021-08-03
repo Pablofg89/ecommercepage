@@ -11,6 +11,10 @@
     background-color: $color-secundario;
     color: white;
 }
+@mixin colores-base3 {
+    background-color: $color-card-backgr;
+    color: white;
+}
 
 // mixin dentro mixin
 

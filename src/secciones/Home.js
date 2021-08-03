@@ -71,8 +71,9 @@ const Home = () => {
 
     return (
         <div className="contenedor-home">
-            <h1>HOME</h1>
+            <div className="search">
             <Search filtrarProductos={filtrarProductos}/>
+            </div>            
             <h2>Productos</h2>
             <div className="contenedor-productos">
                 {numbRand.length > 0 ? 

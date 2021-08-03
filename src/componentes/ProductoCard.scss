@@ -2,8 +2,9 @@
 @import '../sass/mixins';
 @import '../sass/funciones';
 
+
 .card-producto {
-    @include colores-base2;
+    @include colores-base3;
     padding: $padding-card;
     margin-right: $margin-card;
     margin-bottom: $margin-card;
@@ -18,6 +19,7 @@
     .nombre-producto {
         font-size: $nombre-producto;
         // color: $color-principal;
+        
     }
 
     .precio-producto {
@@ -29,3 +31,4 @@
         text-decoration: none;
     }
 }
+

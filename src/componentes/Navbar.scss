@@ -1,8 +1,17 @@
 @import '../sass/variables';
+@import '../sass/mixins';
+@import '../sass/funciones';
 
 .navbar {
-    background-color: $color-principal;
+    background-color: $color-card-backgr;
+    font-size: $fuente-principal;
     padding: $padding-general;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
 
     .link {
         color: #ffffff;
@@ -11,7 +20,7 @@
     }
 
     .link:hover {
-        color: $color-secundario;
+        width: 2rem;
     }
 }
 

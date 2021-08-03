@@ -3,12 +3,18 @@
 
 
 .boton-buscar {
-    @include boton-dinamico(rgb(190, 122, 32), white, 2px);
+    @include boton-dinamico(#03056d, white, 2px);
     width: 6rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.5rem;
 
     &:hover{
-        // @include boton-dinamico(blue, white, 2px);
         width: crecerBoton(6rem);
-        background-color: darken($color: rgb(190, 122, 32), $amount: 20);
+        background-color: darken($color: #021e5c, $amount: 20);
     }
+}
+.imput-search{
+    border-radius: 1rem;
+    font-size: 14px;
+    border-block-color: black;
 }
