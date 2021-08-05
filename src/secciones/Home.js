@@ -98,7 +98,8 @@ const Home = () => {
                             <p className="">{"Precio: $" + selectItem.precio}</p>
                             </div>
                             <div>
-                            <bottom className="bottomClose" onClick={() => { setMostrarProd(false) }}>X</bottom>
+                            <bottom className="btn-close-producto" onClick={() =>
+                                 { setMostrarProd(false) }}>X</bottom>
                             </div>
                         </div>
                     </div>
