@@ -73,8 +73,10 @@ const Home = () => {
         <div className="contenedor-home">
             <div className="search">
             <Search filtrarProductos={filtrarProductos}/>
-            </div>            
+            </div> 
+            <div>         
             <h2>Productos</h2>
+            </div>  
             <div className="contenedor-productos">
                 {numbRand.length > 0 ? 
                     numbRand.map((prod, index) => (

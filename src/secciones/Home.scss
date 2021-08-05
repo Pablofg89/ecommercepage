@@ -5,8 +5,11 @@
 }
 .contenedor-productos {
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
 }
 h2{
     text-align: center;
@@ -16,5 +19,5 @@ h2{
 
 .search{
     position: relative;
-    left: 60rem;
+    left: 84rem;
 }
