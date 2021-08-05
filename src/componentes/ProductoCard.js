@@ -3,13 +3,13 @@ import './ProductoCard.scss';
 
 const ProductoCard = (props) => {
 
-    const {nombreProducto, precio, imagen} = props;
+    const {nombreProducto, precio, imagen, cardOnClick} = props;
     return (
-        <div className="card-producto">
+        <div className="card-producto" >
             <img className="prod-image" src={imagen} alt="imagen producto"/>
             <p className="nombre-producto">{nombreProducto}</p>
             <p className="precio-producto">${precio}</p>
-            <a className="detalles-boton" href="a">Ver detalles</a>
+            <bottom className="detalles-boton" onClick={() => {cardOnClick(props)}}>Ver detalles</bottom>
         </div>
     )
 }
