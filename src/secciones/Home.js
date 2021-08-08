@@ -85,8 +85,9 @@ const Home = () => {
 
     return (
         <div>
+            {/* Carta selecciona de cada Articulos */}
         <div>
-             {/* Carta selecciona de cada Articulos */}
+             
              {mostrarProd ?
                 (
                     <div className="container-productos">
@@ -108,6 +109,7 @@ const Home = () => {
                 : null
             }
         </div>
+        {/* Pagina*/}
         <div className="contenedor-home">    
             <div className="search">
             <Search filtrarProductos={filtrarProductos}/>

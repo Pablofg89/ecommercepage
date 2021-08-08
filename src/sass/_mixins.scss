@@ -24,18 +24,6 @@
     padding: $padding-button;
 }
 
-// mixin con argumentos
-
-// @mixin boton-dinamico($bgc, $col, $b-radius) {
-//     background-color: $bgc;
-//     color: $col;
-//     border-radius: $b-radius;
-//     border: none;
-//     padding: $padding-button;
-// }
-
-// mixin con argumentos predefinidos
-
 @mixin boton-dinamico($bgc: blue, $col: green, $b-radius: 15px) {
     background-color: $bgc;
     color: $col;
