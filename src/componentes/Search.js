@@ -8,7 +8,6 @@ const Search = (props) => {
     return (
         <div>
             <input className="imput-search" onChange={(e) => {filtrarProductos(e.target.value)}} placeholder="Buscar productos"/>
-            <button className="boton-buscar">Buscar</button>
         </div>
     )
 }

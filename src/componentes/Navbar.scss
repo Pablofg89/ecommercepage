@@ -4,8 +4,6 @@
 
 .navbar {
     background-color: $color-card-backgr;
-    font-size: $fuente-principal;
-    padding: $padding-general;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -13,10 +11,12 @@
     justify-content: space-around;
     align-items: center;
 
+
     .link {
         color: #ffffff;
         text-decoration: none;
         margin-right: $margin-link;
+        font-size: 20px;
     }
 
     .link:hover {
